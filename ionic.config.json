@@ -1,0 +1,7 @@
+{
+  "name": "dummycap",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
