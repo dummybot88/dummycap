@@ -1,0 +1,17 @@
+
+<ion-toolbar slot="bottom">
+  <ion-row align-items-center style="margin-bottom: 15px;">
+      <ion-col text-center>
+          <ion-tab-button (click)="goTo('/menu/tab1','tab1')" [class.active]="selectedTab == 'tab1'">
+             <ion-icon name="sunny-outline"></ion-icon>
+              <ion-label>Tab 1</ion-label>
+          </ion-tab-button>
+      </ion-col>
+      <ion-col text-center>
+          <ion-tab-button (click)="goTo('/menu/tab2','tab2')" [class.active]="selectedTab == 'tab2'">
+            <ion-icon name="moon-outline"></ion-icon>
+              <ion-label>Tab 2</ion-label>
+          </ion-tab-button>
+      </ion-col>
+  </ion-row>
+</ion-toolbar>

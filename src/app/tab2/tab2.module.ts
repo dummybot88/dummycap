@@ -7,6 +7,7 @@ import { IonicModule } from '@ionic/angular';
 import { Tab2PageRoutingModule } from './tab2-routing.module';
 
 import { Tab2Page } from './tab2.page';
+import { TabsCompComponent } from '../tabs-comp/tabs-comp.component';
 
 @NgModule({
   imports: [
@@ -15,6 +16,6 @@ import { Tab2Page } from './tab2.page';
     IonicModule,
     Tab2PageRoutingModule
   ],
-  declarations: [Tab2Page]
+  declarations: [Tab2Page, TabsCompComponent]
 })
 export class Tab2PageModule {}

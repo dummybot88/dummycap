@@ -12,4 +12,19 @@ export class SideMenuPage implements OnInit {
   ngOnInit() {
   }
 
+  public selectedPath = '';
+
+  pages = [
+    {
+      title: 'Menu1',
+      url: '/menu/menu1',
+      src: 'chevron-forward-circle-outline'
+    },
+    {
+      title: 'Menu2',
+      url: '/menu/menu2',
+      src: 'chevron-forward-circle-outline'
+    }
+  ]
+
 }
